@@ -1,10 +1,5 @@
 package com.learn.leetcodeproblems;
 
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.stream.Collectors;
-
 public class LongestCommonPrefixMain {
     public static void main(String[] args) {
         longestCommonPrefix(new String[]{"flower", "flow", "flying"});
