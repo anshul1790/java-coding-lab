@@ -1,10 +1,8 @@
-package com.learn.leetcodeproblems;
+package com.learn.challenges.leet;
 
 import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 class SlidingWindowCounterRateLimiter {
     int tokens;

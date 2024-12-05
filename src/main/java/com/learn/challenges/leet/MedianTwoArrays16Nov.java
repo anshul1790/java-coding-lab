@@ -1,4 +1,4 @@
-package com.learn.leetcodeproblems;
+package com.learn.challenges.leet;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

@@ -1,7 +1,6 @@
-package com.learn.leetcodeproblems;
+package com.learn.challenges.leet;
 
 
-import java.time.Duration;
 import java.time.Instant;
 
 class TokenBucketRateLimiter {

@@ -1,4 +1,4 @@
-package com.learn.leetcodeproblems.arrays;
+package com.learn.challenges.arrays;
 
 import java.util.Arrays;
 

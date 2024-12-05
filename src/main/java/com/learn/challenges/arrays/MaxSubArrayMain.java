@@ -1,4 +1,4 @@
-package com.learn.leetcodeproblems.arrays;
+package com.learn.challenges.arrays;
 
 public class MaxSubArrayMain {
     public static void main(String[] args) {

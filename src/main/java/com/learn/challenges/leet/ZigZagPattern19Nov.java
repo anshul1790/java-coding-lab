@@ -1,8 +1,6 @@
-package com.learn.leetcodeproblems;
+package com.learn.challenges.leet;
 
-import javax.swing.text.IconView;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class ZigZagPattern19Nov {

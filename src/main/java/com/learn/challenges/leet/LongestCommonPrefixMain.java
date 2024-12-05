@@ -1,4 +1,4 @@
-package com.learn.leetcodeproblems;
+package com.learn.challenges.leet;
 
 public class LongestCommonPrefixMain {
     public static void main(String[] args) {
