@@ -23,7 +23,7 @@ public class DeleteLastOccurrenceMain {
         deleteLastOccurrence(linkedList, 1);
     }
 
-    /*Input: head: 1 -> 2 -> 3 ->1  -> 4 -> NULL, key = 1
+    /*Input: head: 1 -> 2 -> 3 ->1-> 4 -> NULL, key = 1
     Output: 1 -> 2 -> 3 -> 4 -> NULL*/
     static void deleteLastOccurrence(Node head, int item) {
         Node current = head;
