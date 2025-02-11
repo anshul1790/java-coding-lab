@@ -5,7 +5,7 @@ import java.util.*;
 public class ValidParenthesis {
 
     public static void main(String[] args) {
-        validParenthesis("{}(");
+        validParenthesis("]");
     }
 
     static void validParenthesis(String parenthesis) {
@@ -24,6 +24,10 @@ public class ValidParenthesis {
                     currentChar == '(') {
                 openingBrackets.add(currentChar);
             } else if (currentChar == ']' || currentChar == '}' || currentChar == ')') {
+                if (openingBrackets.empty()) {
+                    isValid = false;
+                    break;
+                }
                 if (openCloseBracketMap.get(currentChar) != openingBrackets.pop()) {
                     isValid = false;
                     break;

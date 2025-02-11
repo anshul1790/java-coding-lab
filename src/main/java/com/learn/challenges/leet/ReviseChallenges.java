@@ -27,14 +27,14 @@ public class ReviseChallenges {
         /*Node l1 = createLinkedList(new int[]{5, 5, 5});
         Node l2 = createLinkedList(new int[]{5, 5, 5});
         addTwoNumInLinkedList(l1, l2);*/
-        /*longestSubString("abcabcbb");*/
+        longestSubString("abcabcbb");
         //longestPalindromicString("aba");
         //zigzagConversion("PAYPALISHIRING", 4);
         //reverseInteger(321231239);
         //palindromeNum(121);
         // maxAreaInWaterContainer(new int[]{1,3, 4, 2, 5, 2});
         // longestCommonPrefix(new String[]{"flower","flow", "flight"});
-        longestCommonPrefix2(new String[]{"flower","flow", "flight"});
+        // longestCommonPrefix2(new String[]{"flower","flow", "flight"});
     }
 
     static void longestCommonPrefix2(String[] strs) {

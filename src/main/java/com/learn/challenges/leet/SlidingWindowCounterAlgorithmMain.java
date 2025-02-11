@@ -17,7 +17,7 @@ class SlidingWindowCounterRateLimiter {
 
     public void allowRequest () {
         Long currentTimeSecond = Instant.now().getEpochSecond();
-        timeBuckets.keySet().removeIf(timeInBucket -> (currentTimeSecond - timeInBucket) > 0);
+        timeBuckets.keySet().removeIf(timeInBucket -> (currentTimeSecond - timeInBucket) >= windowSize);
         int totalRequests = 0;
         for (Map.Entry<Long, Integer> key : timeBuckets.entrySet()) {
             totalRequests = totalRequests + key.getValue();
