@@ -2,7 +2,7 @@ package com.learn.challenges.solid.dip;
 
 public class DependencyInjection {
 
-    static interface Switchable {
+    interface Switchable {
         void turnOn();
         void turnOff();
     }
@@ -19,7 +19,7 @@ public class DependencyInjection {
         }
     }
 
-    // Here the high level class doesnt depend on Lighbulb which is low level class directly
+    // Here the high level class doesn't depend on Lighbulb which is low level class directly
     // Instead Switch depends on Switchable rather.
     static class Switch {
         private final Switchable switchable;

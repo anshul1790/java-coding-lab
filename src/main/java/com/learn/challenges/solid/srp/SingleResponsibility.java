@@ -14,7 +14,6 @@ public class SingleResponsibility {
         public void senEmail() {
 
         }
-
     }
 
     // This class breaking the law of SRP
