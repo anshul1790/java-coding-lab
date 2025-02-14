@@ -1,4 +1,4 @@
-package com.learn.challenges.twopointers;
+package com.learn.challenges.dsa.twopointers;
 
 import java.util.Arrays;
 import java.util.HashMap;
