@@ -2,6 +2,7 @@ package com.learn.challenges.designpattern.structural;
 
 /*
     https://refactoring.guru/design-patterns/adapter
+    Allows incompatible interfaces to work together
  */
 public class AdapterPatternExample1 {
 
@@ -22,11 +23,11 @@ public class AdapterPatternExample1 {
         void playSong(String file);
     }
 
-    static class WavAdapter implements AudioPlayerAdapter {
+    static class WavMp3Adapter implements AudioPlayerAdapter {
 
         Mp3Player mp3Player;
 
-        public WavAdapter(Mp3Player mp3Player) {
+        public WavMp3Adapter(Mp3Player mp3Player) {
             this.mp3Player = mp3Player;
         }
 
@@ -46,7 +47,7 @@ public class AdapterPatternExample1 {
         Mp3Player mp3Player = new Mp3Player();
         //mp3Player.playMp3File("hello.mp3");
 
-        AudioPlayerAdapter player = new WavAdapter(mp3Player);
+        AudioPlayerAdapter player = new WavMp3Adapter(mp3Player);
         player.playSong("hello.wav");
 
     }
